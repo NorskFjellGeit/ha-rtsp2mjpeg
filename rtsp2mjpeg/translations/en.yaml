@@ -1,0 +1,21 @@
+configuration:
+  camera_url:
+    name: Camera RTSP URL
+    description: >-
+      Full url to camera RTSP or RTMP
+  camera_width:
+    name: Camera Width
+    description: >-
+      Camera width in pixels
+  camera_height:
+    name: Camera Height
+    description: >-
+      Camera height in pixels
+  camera_fps:
+    name: Camera FPS
+    description: >-
+      Camera FPS in live mode
+  camera_still_fps:
+    name: Camera Still FPS
+    description: >-
+      Camera FPS in still mode
