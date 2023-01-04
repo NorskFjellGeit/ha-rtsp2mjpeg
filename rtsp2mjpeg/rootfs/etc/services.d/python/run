@@ -1,8 +1,0 @@
-#!/usr/bin/with-contenv bashio
-set -e
-
-bashio::log.info "Starting HTTPD..."
-
-# Run
-cd /opt/rtsp2mjpeg
-exec /usr/bin/python3 main.py

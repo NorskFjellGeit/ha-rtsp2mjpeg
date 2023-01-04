@@ -1,8 +1,8 @@
 ---
-name: "FFServer"
-description: "FFServer for creating MJPEG Stream and Still image urls from IP-Camera"
-version: 1.0.2
-slug: "ffserver"
+name: "RTSP 2 MJPEG"
+description: "RTSP 2 MJPEG for creating MJPEG Stream and Still image urls from IP-Camera"
+version: 1.0.0
+slug: "rtsp2mjpeg"
 init: false
 webui: http://[HOST]:[PORT:8090]
 arch:
@@ -13,7 +13,7 @@ arch:
   - i386
 hassio_api: true
 hassio_role: homeassistant
-image: docker.io/norskfjellgeit/ha-ffserver
+image: docker.io/norskfjellgeit/ha-rtsp2mjpeg
 panel_icon: mdi:camera
 panel_title: FFServer UI
 options:
@@ -31,4 +31,4 @@ schema:
 ports:
   8090/tcp: 8090
 ports_description:
-  8090/tcp: Webcam HTTP
+  8090/tcp: HTTP
